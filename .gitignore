@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.env
+
+# Docker
+.env
+data/
+
+# Reports
+reports/*.html
+reports/*.json
+!reports/template-4-dim-report.md
+
+# IDE
+.idea/
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+
+.env.local
